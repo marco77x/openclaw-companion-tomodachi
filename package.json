@@ -1,0 +1,19 @@
+{
+  "name": "openclaw-companion-tomodachi",
+  "version": "1.0.0",
+  "description": "TOMODACHI virtual companion system for OpenClaw",
+  "type": "commonjs",
+  "main": "src/companion.js",
+  "scripts": {
+    "test": "node src/companion.js list",
+    "lint": "echo \"No lint configured\""
+  },
+  "keywords": [
+    "openclaw",
+    "tomodachi",
+    "companion",
+    "virtual-pet"
+  ],
+  "author": "marco77x",
+  "license": "MIT"
+}
