@@ -26,7 +26,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: "npm"
 
       - name: Install dependencies (if present)
         run: |
@@ -44,4 +43,3 @@ jobs:
           node src/companion.js list
           node src/companion.js hatch ci_user
           node src/companion.js status ci_user
-
