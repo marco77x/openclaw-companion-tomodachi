@@ -1,6 +1,6 @@
 #!/bin/bash
-# Companion System v2.0 - Wrapper script
-# Usage: ./companion.sh <command> <user>
+# Companion System v2.0 - Script wrapper
+# Uso: ./companion.sh <comando> <utente>
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 NODE_BIN="/opt/homebrew/bin/node"
@@ -18,36 +18,36 @@ NC='\033[0m'
 show_help() {
   echo -e "${CYAN}🐾 TOMODACHI COMPANION SYSTEM v2.0${NC}"
   echo ""
-  echo "Usage: ./companion.sh <command> <user>"
+  echo "Uso: ./companion.sh <comando> <utente>"
   echo ""
-  echo -e "${GREEN}Available commands:${NC}"
-  echo "  status    <user>   - Show your companion"
-  echo "  hatch     <user>   - Hatch a new egg"
-  echo "  talk      <user>   - Make your companion talk"
-  echo "  evolve    <user>   - Force evolution (if ready)"
+  echo -e "${GREEN}Comandi disponibili:${NC}"
+  echo "  status    <utente> - Mostra il tuo companion"
+  echo "  hatch     <utente> - Schiude un nuovo uovo"
+  echo "  talk      <utente> - Fa parlare il companion"
+  echo "  evolve    <utente> - Forza evoluzione (se pronta)"
   echo ""
-  echo -e "${YELLOW}Actions:${NC}"
-  echo "  feed      <user>   - Feed"
-  echo "  play      <user>   - Play"
-  echo "  sleep     <user>   - Put to sleep"
-  echo "  groom     <user>   - Groom"
-  echo "  cuddle    <user>   - Cuddle"
-  echo "  train     <user>   - Train"
-  echo "  evening   <user>   - Evening bonding"
-  echo "  evoke     <user>   - Reassure (TOMODACHI line)"
+  echo -e "${YELLOW}Azioni:${NC}"
+  echo "  feed      <utente> - Dai da mangiare"
+  echo "  play      <utente> - Gioca"
+  echo "  sleep     <utente> - Metti a dormire"
+  echo "  groom     <utente> - Pulisci"
+  echo "  cuddle    <utente> - Coccola"
+  echo "  train     <utente> - Allena"
+  echo "  evening   <utente> - Rituale serale"
+  echo "  evoke     <utente> - Rassicura (linea TOMODACHI)"
   echo ""
   echo -e "${PURPLE}System:${NC}"
-  echo "  decay              - Apply decay to all companions"
-  echo "  list               - List all 18 companions"
+  echo "  decay              - Applica decadimento a tutti i companion"
+  echo "  list               - Elenca tutti i 18 companion"
 }
 
 if [ ! -x "$NODE_BIN" ]; then
-  echo -e "${RED}Error: Node.js not found at $NODE_BIN${NC}"
+  echo -e "${RED}Errore: Node.js non trovato in $NODE_BIN${NC}"
   exit 1
 fi
 
 if [ ! -f "$JS_FILE" ]; then
-  echo -e "${RED}Error: companion.js not found in $SCRIPT_DIR${NC}"
+  echo -e "${RED}Errore: companion.js non trovato in $SCRIPT_DIR${NC}"
   exit 1
 fi
 
@@ -57,8 +57,8 @@ case "$1" in
       "$NODE_BIN" "$JS_FILE" "$1"
     else
       if [ -z "$2" ]; then
-        echo -e "${RED}Error: user is required${NC}"
-        echo "Usage: ./companion.sh $1 <user>"
+        echo -e "${RED}Errore: utente obbligatorio${NC}"
+        echo "Uso: ./companion.sh $1 <utente>"
         exit 1
       fi
       "$NODE_BIN" "$JS_FILE" "$1" "$2"
@@ -68,7 +68,7 @@ case "$1" in
     show_help
     ;;
   *)
-    echo -e "${RED}Unknown command: $1${NC}"
+    echo -e "${RED}Comando sconosciuto: $1${NC}"
     show_help
     exit 1
     ;;

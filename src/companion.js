@@ -134,22 +134,22 @@ const COMPANIONS = {
   // BABY
   mochi: {
     id: 'mochi', name: 'TOMODACHI', line: 'tender', stadio: 'baby',
-    personalita: 'tender, insecure', rarita: 1,
-    bisogno: 'frequent reassurance',
+    personalita: 'tenero, insicuro', rarita: 1,
+    bisogno: 'rassicurazioni frequenti',
     decorazioni: ['♡', '♡', '♡'],
     animazione: 'ondeggia piano', tono: 'tenaro, tenero, insicuro'
   },
   zippo: {
     id: 'zippo', name: 'Zippo', line: 'lively', stadio: 'baby',
-    personalita: 'energetic, playful', rarita: 1,
-    bisogno: 'play more often',
+    personalita: 'energico, giocherellone', rarita: 1,
+    bisogno: 'giocare più spesso',
     decorazioni: ['/', '\\', '/', '\\'],
     animazione: 'corre avanti e indietro', tono: 'rapido, entusiasta'
   },
   noxi: {
     id: 'noxi', name: 'Noxi', line: 'mysterious', stadio: 'baby',
-    personalita: 'quiet, observant', rarita: 1,
-    bisogno: 'periods of quiet',
+    personalita: 'silenzioso, osservatore', rarita: 1,
+    bisogno: 'momenti di quiete',
     decorazioni: ['·', '✦', '·'],
     animazione: 'guarda in alto', tono: 'calmo, poetico'
   },
@@ -157,36 +157,36 @@ const COMPANIONS = {
   // TENERA FINAL
   mieli: {
     id: 'mieli', name: 'Mieli', line: 'tender', stadio: 'final',
-    personalita: 'cuddly, loyal', rarita: 1,
+    personalita: 'coccolosa, leale', rarita: 1,
     bisogno: 'ritorno dell\'utente dopo assenza',
     decorazioni: ['♡', '♡', '♡'],
     animazione: 'si accoccola', tono: 'affettuoso diretto'
   },
   ninnolo: {
     id: 'ninnolo', name: 'Ninnolo', line: 'tender', stadio: 'final',
-    personalita: 'lazy, calm', rarita: 1,
-    bisogno: 'regular sleep',
+    personalita: 'pigro, tranquillo', rarita: 1,
+    bisogno: 'sonno regolare',
     decorazioni: ['z', 'Z', 'z'],
     animazione: 'sonnecchia', tono: 'tranquillo'
   },
   veluna: {
     id: 'veluna', name: 'Veluna', line: 'tender', stadio: 'final',
-    personalita: 'elegant, protective', rarita: 3,
-    bisogno: 'stable routine',
+    personalita: 'elegante, protettiva', rarita: 3,
+    bisogno: 'routine stabile',
     decorazioni: ['✦', '·', '✦'],
     animazione: 'posa elegante', tono: 'elegante'
   },
   trilly: {
     id: 'trilly', name: 'Trilly', line: 'tender', stadio: 'final',
-    personalita: 'joyful, clingy', rarita: 1,
-    bisogno: 'immediate attention',
+    personalita: 'gioiosa, appiccicosa', rarita: 1,
+    bisogno: 'attenzione immediata',
     decorazioni: ['⭐', '·', '⭐'],
     animazione: 'festoso', tono: 'festoso'
   },
   briciola: {
     id: 'briciola', name: 'Briciola', line: 'tender', stadio: 'final',
-    personalita: 'sensitive, delicate', rarita: 2,
-    bisogno: 'not being ignored too long',
+    personalita: 'sensibile, delicata', rarita: 2,
+    bisogno: 'non essere ignorata troppo a lungo',
     decorazioni: ['·', '·', '·'],
     animazione: 'si stringe', tono: 'delicato'
   },
@@ -194,36 +194,36 @@ const COMPANIONS = {
   // VIVACE FINAL
   sprinto: {
     id: 'sprinto', name: 'Sprinto', line: 'lively', stadio: 'final',
-    personalita: 'enthusiastic, active', rarita: 1,
-    bisogno: 'frequent mini-activities',
+    personalita: 'entusiasta, attivo', rarita: 1,
+    bisogno: 'mini-attività frequenti',
     decorazioni: ['⚡', '⚡', '⚡'],
     animazione: 'saltella', tono: 'entusiasta'
   },
   turbolo: {
     id: 'turbolo', name: 'Turbolo', line: 'lively', stadio: 'final',
-    personalita: 'chaotic, funny', rarita: 2,
-    bisogno: 'tolerates mess but wants fun',
+    personalita: 'caotico, buffo', rarita: 2,
+    bisogno: 'tollera il disordine ma vuole divertirsi',
     decorazioni: ['@', '*', '@'],
     animazione: 'gira su sé stesso', tono: 'confuso-comico'
   },
   voltix: {
     id: 'voltix', name: 'Voltix', line: 'lively', stadio: 'final',
-    personalita: 'brilliant, fast', rarita: 3,
-    bisogno: 'intense active sessions',
+    personalita: 'brillante, veloce', rarita: 3,
+    bisogno: 'sessioni attive intense',
     decorazioni: ['⚡', '⚡', '⚡'],
     animazione: 'posa eroe', tono: 'deciso'
   },
   bombo: {
     id: 'bombo', name: 'Bombo', line: 'lively', stadio: 'final',
-    personalita: 'clownish, goofy', rarita: 1,
-    bisogno: 'funny interactions',
+    personalita: 'clownesco, strambo', rarita: 1,
+    bisogno: 'interazioni divertenti',
     decorazioni: ['(', '●', ')'],
     animazione: 'ondeggia', tono: 'buffo'
   },
   ribik: {
     id: 'ribik', name: 'Ribik', line: 'lively', stadio: 'final',
-    personalita: 'rebellious but attached', rarita: 2,
-    bisogno: 'less authoritarian replies',
+    personalita: 'ribelle ma affezionato', rarita: 2,
+    bisogno: 'risposte meno autoritarie',
     decorazioni: ['╱', '▼', '╲'],
     animazione: 'posa ribelle', tono: 'ribelle'
   },
@@ -231,36 +231,36 @@ const COMPANIONS = {
   // MISTERIOSA FINAL
   lunor: {
     id: 'lunor', name: 'Lunor', line: 'mysterious', stadio: 'final',
-    personalita: 'steady, loyal', rarita: 1,
-    bisogno: 'evening presence',
+    personalita: 'costante, leale', rarita: 1,
+    bisogno: 'presenza serale',
     decorazioni: ['☾', '·', '☽'],
     animazione: 'illumina', tono: 'quieto'
   },
   nebryl: {
     id: 'nebryl', name: 'Nebril', line: 'mysterious', stadio: 'final',
-    personalita: 'sensitive, deep', rarita: 2,
-    bisogno: 'steady but gentle affection',
+    personalita: 'sensibile, profondo', rarita: 2,
+    bisogno: 'affetto costante ma delicato',
     decorazioni: ['~', '·', '~'],
     animazione: 'sospira', tono: 'malinconico'
   },
   astryn: {
     id: 'astryn', name: 'Astryn', line: 'mysterious', stadio: 'final',
-    personalita: 'astral, enigmatic', rarita: 3,
-    bisogno: 'calm and precision',
+    personalita: 'astrale, enigmatico', rarita: 3,
+    bisogno: 'calma e precisione',
     decorazioni: ['✦', '★', '✦'],
     animazione: 'vola leggero', tono: 'enigmatico'
   },
   velmoru: {
     id: 'velmoru', name: 'Velmoru', line: 'mysterious', stadio: 'final',
-    personalita: 'protective, reserved', rarita: 1,
-    bisogno: 'few stimuli, stable environment',
+    personalita: 'protettivo, riservato', rarita: 1,
+    bisogno: 'pochi stimoli, ambiente stabile',
     decorazioni: ['◉', '‿', '◉'],
     animazione: 'osserva', tono: 'protettivo'
   },
   noctara: {
     id: 'noctara', name: 'Noctara', line: 'mysterious', stadio: 'final',
-    personalita: 'intense, deeply attached', rarita: 3,
-    bisogno: 'high relational consistency',
+    personalita: 'intensa, molto legata', rarita: 3,
+    bisogno: 'alta coerenza relazionale',
     decorazioni: ['★', '◉', '★'],
     animazione: 'occhi luminosi', tono: 'intenso'
   }
@@ -270,7 +270,7 @@ const COMPANIONS = {
 // STATS & DECAY
 // ==========================================
 const STATS = ['fame', 'felicita', 'pulizia', 'energia', 'affetto', 'disciplina', 'attivita', 'calma', 'routine', 'serale'];
-const STAT_LABELS = {fame:'🍖 Hunger',felicita:'😊 Happiness',pulizia:'🧼 Cleanliness',energia:'⚡ Energy',affetto:'💕 Affection',disciplina:'📏 Discipline',attivita:'🎮 Activity',calma:'🧘 Calm',routine:'⏰ Routine',serale:'🌙 Evening'};
+const STAT_LABELS = {fame:'🍖 Fame',felicita:'😊 Felicità',pulizia:'🧼 Pulizia',energia:'⚡ Energia',affetto:'💕 Affetto',disciplina:'📏 Disciplina',attivita:'🎮 Attività',calma:'🧘 Calma',routine:'⏰ Routine',serale:'🌙 Sera'};
 
 const DECADIMENTO = {
   tender: {affetto:-3, pulizia:-2, routine:-2},
@@ -311,9 +311,9 @@ const DIALOGHI_COMPAGNO = {
     sad: ["... :'(", "Mi ignori?", "Ho paura...", "Resta con me..."]
   },
   zippo:{
-    idle: ["GIOCHIAMO!", "Corriamo!", "YAAAY!", "Let's gooo!"],
+    idle: ["GIOCHIAMO!", "Corriamo!", "YAAAY!", "Andiamooo!"],
     happy: ["WOOO! CHE FIGATA!", "Ancora! Ancora! ⚡", "Sei il migliore!"],
-    sad: ["...why", "Sbuff...", "Mi ignori? :("]
+    sad: ["...perché", "Sbuff...", "Mi ignori? :("]
   },
   noxi:{
     idle: ["*guarda le stelle*", "...", "Silenzio...", "✦"],
@@ -524,32 +524,30 @@ function render(s){
   const interazioni=stats.interazioni||0;
   const nextEvo=comp.stadio==='baby'?(10-interazioni):'MAX';
   const lineIcon={tender:'☀️',lively:'🌙',mysterious:'🌫️'}[comp.line];
-  const lineName={tender:'TENDER',lively:'LIVELY',mysterious:'MYSTERIOUS'}[comp.line];
+  const lineName={tender:'Tenera',lively:'Vivace',mysterious:'Misteriosa'}[comp.line];
+  const stageName={baby:'baby',final:'finale'}[comp.stadio]||comp.stadio;
+  const moodName={happy:'felice',idle:'stabile',sad:'giù'}[mood]||mood;
   
   console.log('');
-  console.log(`╭${'─'.repeat(41)}╮`);
-  console.log(`│  ${lineIcon} LINE ${lineName} — ${comp.stadio.toUpperCase()} ${lineIcon}  │`.padEnd(43)+'│');
-  console.log(`├${'═'.repeat(41)}┤`);
-  console.log(`│`);
-  console.log(`│   ${comp.name} ${stars}`);
-  console.log(`│   ${comp.personalita}`);
-  console.log(`│`);
-  art.forEach(line=>console.log(`│  ${line}`.padEnd(43)+'│'));
-  console.log(`│`);
-  if(comp.stadio==='baby'){
-    console.log(`│  Interactions: ${interazioni}/10 → EVO`.padEnd(43)+'│');
-  } else if(evolvedAt){
-    console.log(`│  ✨ EVOLVED! ✨`.padEnd(43)+'│');
-  }
-  console.log(`╰${'─'.repeat(41)}╯`);
+  console.log(`🌟 ${comp.name} ${stars} · Linea ${lineName} ${lineIcon}`);
+  console.log(`📌 Stadio: ${stageName} · Umore: ${moodName}`);
+  console.log(`🧬 Personalità: ${comp.personalita}`);
   console.log('');
-  console.log(`💫 NEED: ${comp.bisogno}`);
+  art.forEach(line=>console.log(line));
+  console.log('');
+  if(comp.stadio==='baby'){
+    console.log(`🔄 Interazioni: ${interazioni}/10 · Mancano ${nextEvo} per l'evoluzione`);
+  } else if(evolvedAt){
+    console.log(`✨ Evoluzione completata!`);
+  }
+  console.log('');
+  console.log(`💫 Bisogno: ${comp.bisogno}`);
   console.log('');
   STATS.forEach(k=>{
     const v=stats[k];
     const bar=Math.round(v/10);
-    const fill='█'.repeat(bar);
-    const empty='░'.repeat(10-bar);
+    const fill='■'.repeat(bar);
+    const empty='·'.repeat(10-bar);
     console.log(`${STAT_LABELS[k].padEnd(14)} [${fill}${empty}] ${v}%`);
   });
 }
@@ -565,48 +563,48 @@ if(cmd==='decay'){
   console.log('✅ Decadimento applicato a tutti i companion');
 } else if(cmd==='status'&&userId){
   const s=status(userId);
-  if(!s){console.log('No companion found. Use: hatch <user>');process.exit(1);}
+  if(!s){console.log('Nessun companion trovato. Usa: hatch <utente>');process.exit(1);}
   render(s);
 } else if(cmd==='hatch'&&userId){
   const r=hatch(userId);
-  console.log(`🎉 ${r.comp.name} was born! (line ${r.comp.line})`);
+  console.log(`🎉 È nato ${r.comp.name}! (linea ${r.comp.line})`);
   const s=status(userId);
   render(s);
 } else if(cmd==='talk'&&userId){
   const r=talk(userId);
-  if(!r){console.log('No companion found.');process.exit(1);}
+  if(!r){console.log('Nessun companion trovato.');process.exit(1);}
   console.log(`${r.comp.name} dice:`);
   console.log(`"${r.text}"`);
 } else if(cmd==='evolve'&&userId){
   const r=evolve(userId);
   if(r.evolved){
-    console.log(`✨ EVOLUTION! ${r.comp.name} was born!`);
+    console.log(`✨ EVOLUZIONE! È nato ${r.comp.name}!`);
     const s=status(userId);
     render(s);
   } else {
-    console.log('Not ready to evolve yet. 10 interactions required.');
+    console.log('Non è ancora pronto a evolversi. Servono 10 interazioni.');
   }
 } else if(['feed','play','sleep','groom','cuddle','train','evening','evoke'].includes(cmd)&&userId){
   const delta=cmd!=='evoke'?1:0;
   const r=action(userId,cmd,delta);
-  if(!r){console.log('No companion found.');process.exit(1);}
+  if(!r){console.log('Nessun companion trovato.');process.exit(1);}
   console.log(`💫 ${r.comp.name} ha ${cmd}!`);
   const s=status(userId);
   render(s);
   if(r.evolvedId){
-    console.log(`\n🎊✨ EVOLUTION! ${r.comp.name} was born! ✨🎊`);
+    console.log(`\n🎊✨ EVOLUZIONE! È nato ${r.comp.name}! ✨🎊`);
   }
 } else if(cmd==='list'){
-  console.log('🐾 Available companions:');
+  console.log('🐾 Companion disponibili:');
   Object.values(COMPANIONS).forEach(c=>console.log(`  ${c.name} (${c.line}, ${c.stadio})`));
 } else {
   console.log('TOMODACHI CLI v2.0');
   console.log('-------------------');
-  console.log('status <user>   - Show companion');
-  console.log('hatch <user>    - Hatch a new egg');
-  console.log('talk <user>     - Make your companion talk');
-  console.log('evolve <user>   - Force evolution (if ready)');
-  console.log('feed/play/sleep/groom/cuddle/train/evening/evoke <user>');
-  console.log('decay           - Apply decay to all companions');
-  console.log('list            - List all companions');
+  console.log('status <utente>   - Mostra il companion');
+  console.log('hatch <utente>    - Schiude un nuovo uovo');
+  console.log('talk <utente>     - Fa parlare il companion');
+  console.log('evolve <utente>   - Forza evoluzione (se pronta)');
+  console.log('feed/play/sleep/groom/cuddle/train/evening/evoke <utente>');
+  console.log('decay             - Applica decadimento a tutti i companion');
+  console.log('list              - Elenca tutti i companion');
 }
